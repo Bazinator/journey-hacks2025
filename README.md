@@ -1,15 +1,10 @@
-# 🍽️ Leftover Love
+# Leftover Love
 
-**Sharing More Than Just Food**
+**What is leftover love?**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Next.js](https://img.shields.io/badge/Next.js-15.1.7-black.svg)](https://nextjs.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.116.1-teal.svg)](https://fastapi.tiangolo.com/)
+Leftover Love started as a hackathon project that was too impactful for us to just let it sit. It is a social impact platform that connects restaurants with surplus food to charities and local food banks. Our mission is to reduce food waste while helping communities in need, turning surplus into smiles and waste into warmth.
 
-Leftover Love is a social impact platform that connects restaurants with surplus food to charities and local food banks. Our mission is to reduce food waste while helping communities in need, turning surplus into smiles and waste into warmth.
-
-## 🌟 Features
+## Features
 
 ### For Restaurants
 - **Food Listing Management**: Easily list surplus food items instead of discarding them
@@ -25,11 +20,13 @@ Leftover Love is a social impact platform that connects restaurants with surplus
 
 ### Platform Features
 - **Real-time Updates**: Live food availability and pickup status
+- **Ratings on both ends**: Both parties can rate their experience with each other
+- **Real impact metrics**: Shows the amount of love the organization has given through metrics
 - **Secure Authentication**: JWT-based authentication for both user types
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **RESTful API**: Complete API documentation with Swagger/OpenAPI
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI**: Modern, fast web framework for building APIs
@@ -45,7 +42,7 @@ Leftover Love is a social impact platform that connects restaurants with surplus
 - **CSS Modules**: Scoped styling for component-based architecture
 - **Responsive Design**: Mobile-first approach with modern CSS Grid/Flexbox
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this application, make sure you have:
 
@@ -53,7 +50,7 @@ Before running this application, make sure you have:
 - **Python** (v3.9 or higher) - [Download here](https://www.python.org/downloads/)
 - **Git** - [Download here](https://git-scm.com/)
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -109,31 +106,7 @@ npm run dev
 
 The frontend will be available at `http://localhost:3000`
 
-## 📁 Project Structure
-
-```
-leftover-love/
-├── backend/                 # FastAPI backend application
-│   ├── app/
-│   │   ├── core/           # Core functionality (config, security)
-│   │   ├── database/       # Database configuration
-│   │   ├── models/         # SQLAlchemy models
-│   │   ├── routes/         # API route handlers
-│   │   └── schemas/        # Pydantic schemas
-│   ├── alembic/            # Database migrations
-│   ├── main.py             # Application entry point
-│   └── requirements.txt    # Python dependencies
-├── frontend/
-│   └── nowastewebapp/      # Next.js frontend application
-│       ├── src/
-│       │   ├── app/        # Next.js App Router pages
-│       │   ├── components/ # Reusable React components
-│       │   └── utils/      # Utility functions
-│       └── package.json    # Node.js dependencies
-└── README.md
-```
-
-## 🔧 Configuration
+## Configuration
 
 ### Backend Environment Variables (.env)
 ```env
@@ -154,7 +127,7 @@ FRONTEND_URL=http://localhost:3000
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 The API follows RESTful conventions and includes comprehensive documentation:
 
@@ -179,7 +152,7 @@ The API follows RESTful conventions and includes comprehensive documentation:
 - `DELETE /api/listings/{id}` - Delete food listing
 - `POST /api/listings/{id}/pickup` - Schedule pickup
 
-## 🧪 Testing
+## Testing
 
 ### Backend Testing
 ```bash
@@ -193,7 +166,7 @@ cd frontend/nowastewebapp
 npm test
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment (Railway/Heroku)
 1. Set up production database (PostgreSQL)
@@ -206,7 +179,7 @@ npm test
 3. Set environment variables
 4. Deploy
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -216,11 +189,8 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Team
+## Team
 
 Made by Jayden Truong, Michael Bazzett, Rohin Aulukh, and Hugo Najafi (Goats)
 
